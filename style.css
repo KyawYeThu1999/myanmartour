@@ -1,0 +1,515 @@
+.navbar-brand {
+    margin-left: -24px;
+    padding-top: 0px;
+}
+
+#banna_btn {
+    border: 0px solid;
+    padding: 12px 50px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner_title {
+    margin-bottom: 150px;
+    text-shadow: 4px 0px 2px #00000094;
+}
+
+nav.scrolled {
+    background-color: #000000;
+}
+
+.navbar-brand span {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 4px 0px 2px #00000094;
+}
+
+.navbar img {
+    width: 89px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* media query for nav-bar */
+
+@media screen and (max-width:375px) {
+    .navbar img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 17px !important;
+    }
+}
+
+/* end nav */
+
+
+
+/* start content area */
+
+.home_img_hover img {
+    transition-duration: 0.5s;
+}
+
+.home_img_hover img:hover {
+    filter: opacity(0.7);
+    transition-duration: 0.5s;
+}
+
+/* end content area */
+
+
+
+/* start footer */
+
+#footer_area {
+    background-color: #000000;
+}
+
+.footer_link ul {
+    line-height: 43px;
+}
+
+.footer_contact ul li {
+    white-space: nowrap;
+}
+
+.footer_link ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_contact {
+    color: white;
+    line-height: 43px;
+}
+
+/* media query for footer */
+
+@media screen and (max-width:768px) {
+    .footer_link {
+        display: none;
+    }
+}
+
+#footer_area h3 {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+/* start thuya htoo css */
+
+#counterf{
+    background-image: url(imges/finfo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 35;
+    width: 100%;
+    height:500px;
+}
+#counterf h1 {
+    color: white;
+    text-shadow: 4px 0px 2px #00000094;
+    line-height: 500px;
+
+}
+#counterh{
+    background-image: url(imges/h1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 35;
+    width: 100%;
+    height: 500px;
+
+}
+#counterh h1 {
+	color: white;
+    text-shadow: 4px 0px 2px #00000094;
+    line-height: 500px;
+    
+
+}
+
+#countert{
+    background-image: url(imges/terms.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 35;
+    width: 100%;
+    height: 500px;
+}
+
+#countert h1 {
+    color: white;
+    text-shadow: 4px 0px 2px #00000094;
+    line-height: 500px;
+    
+
+}
+#container1 h5{
+    color: blue;
+
+}
+
+/* end thuya htoo css */
+
+
+/* start pan ei zon css */
+
+#contactbanner{
+	background: url(imges/c2.jpg);
+	width:100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.text-center h1{
+   line-height: 500px;
+   text-shadow: 4px 0px 2px #00000094;
+}
+
+.blue{
+	color:#2C6AB0;
+	
+}
+.yellow{
+	color: #F6FF33;
+}
+
+/* end pez css */
+
+
+/* start khin may thu */
+
+/*About*/
+#aboutbanner
+{
+	background: url(imges/aboutbanna.jpg);
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.minititle
+{
+	font-size:20px;
+	font-weight: bold;
+}
+
+
+.box
+{
+	background-color: #FAF8F6;
+	border: 0px solid #FAF8F6;
+	border-radius: 2px;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#aboutbanner h1{
+    line-height: 500px;
+    color: white;
+    text-shadow: 4px 0px 2px #00000094;
+}
+
+/* end khin may thu */
+
+
+/* start ma zar */
+
+
+/*about_myanmar start here*/
+/*background image of about myanmar menu*/
+#about_myanmar_banner{
+	background: url(imges/bagan_bg.jpg);
+	width: 100%;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+#about_myanmar_banner h1{
+    line-height: 500px;
+    text-shadow: 4px 0px 2px #00000094;
+}
+.p-title {
+	font-size: 20px; 
+	font-weight: bold;
+}
+.ab_myanmar{
+	border: 0px solid #F3F1F1; 
+	background-color: #FBF7F6;
+
+}
+
+
+/*about_myanmar end here*/
+
+/*festivals information start here*/
+#festivals_banner{
+	background: url(imges/festival_img.jpg);
+	width: 100%;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+/*festivals information end here*/
+/*cruises information start here*/
+#cruises_banner{
+	background: url(imges/inlay_bg1.jpg);
+	width: 100%;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-size: cover;
+}
+/*cruises information end here*/
+
+#festivals_banner h1{
+    line-height: 500px;
+    text-shadow: 4px 0px 2px #00000094;
+}
+
+
+/* end ma zar */
+
+/*kmt css start*/
+
+#banna9{
+
+
+	background-image: 
+		url(imges/45.jpg);
+		width: 100%;
+		height:500px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+
+#banna2{
+
+
+	background-image: 
+		url(imges/bagan2.jpg);
+		width: 100%;
+		height:500px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+#banna3{
+
+
+	background-image: 
+		url(imges/putao2.jpg);
+		width: 100%;
+		height:500px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+#banna4{
+
+
+	background-image: 
+		url(imges/66.jpg);
+		width: 100%;
+		height:500px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+}
+#banna5{
+
+
+	background-image: 
+		url(imges/beach.jpg);
+		width: 100%;
+		height:500px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+#banna6{
+
+
+	background-image: 
+		url(imges/22.jpg);
+		width: 100%;
+		height:500px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+}
+#banna7{
+
+
+	background-image: 
+		url(imges/yangon.jpg);
+		width: 100%;
+		height:500px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+
+.card{
+	width: 300px;
+	height: 350px;
+	margin-top: 20px;
+
+
+}
+
+p{
+	text-align: center;
+}
+
+#day img{
+	width: 250px;
+	height: 250px;
+}
+
+#day .row{
+	margin-top: 30px;
+}
+
+#banner_destenation h1{
+	color: white;
+	line-height: 500px;
+	text-shadow: 4px 0px 2px #00000094;
+}
+
+@media screen and (max-width:320px) {
+	#navtitle h1 span{
+		display: none;
+	}
+}
+/*kmt*/
+
+
+/* kyt */
+
+#distenation_area{
+	background-image: url(imges/banner_destination.jpg);
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height:500px;
+}
+
+
+#distenation_area h1{
+	line-height: 500px;
+	color: white;
+	text-shadow: 4px 0px 2px #00000094;
+}
+
+
+/* kyt */
+
+#countery{
+    background-image: url(imges/yy1.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    width: 100%;
+    height:500px;
+}
+
+#countery h1 {
+	line-height: 500px;
+    color: cornsilk;
+    text-shadow: 4px 0px 2px #00000094;
+    
+
+}
+
+#counterb{
+
+	background:url(imges/bb1.jpg);
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center ;
+	background-size: cover;
+
+
+}
+
+#counterb h1{
+	line-height: 500px;
+    color: cornsilk;
+    text-shadow: 4px 0px 2px #00000094;
+
+}
+
+
+
+#counterm{
+
+	background:url(imges/mm1.jpg);
+	width: 100%;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center ;
+	background-size: cover;
+
+}
+
+#counterm h1 {
+	line-height: 500px;
+    color: cornsilk;
+    text-shadow: 4px 0px 2px #00000094;
+    
+
+}
+
+*{
+	font-family: naing;
+}
+
+@font-face{
+	font-family: naing;
+	src: url(/myanmar_tour/PlayfairDisplay-VariableFont:wght.ttf);
+}
+
+.contact ul li{
+	list-style: none;
+	line-height: 40px;
+}
+
+
+
